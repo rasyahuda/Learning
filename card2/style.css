@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+
+img {
+    width: 350px;
+    border-radius: 10px;
+}
+.container {
+    width: 350px;
+    background-color: aquamarine;
+    margin: 60px auto 60px;
+    padding: 30px;
+    border-radius: 20px;
+    border: transparent;
+}
+
+.title p {
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    border-radius: 7px;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.title h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-judul p {
+    margin-bottom: 10px;
+}
+
+.card-judul h2 {
+    margin-bottom: 8px;
+}
+
+.card-footer img {
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.card-footer p {
+    font-weight: bold;
+    text-align: center;
+    margin-top: -33px;
+    margin-left: -160px;
+}
+
+.card-footer button {
+    margin-top: 20px;
+    width: 80%;
+    border: transparent;
+    margin-left: 30px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.card-footer button:hover {
+    color: white;
+    background-color: blueviolet;
+    transition-duration: 0.5s;
+}
+
+.card-footer button:active {
+    background-color: red;
+}

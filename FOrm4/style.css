@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./img/download\ \(21\).jpeg);
+    background-size: cover;
+}
+
+.weaper {
+    width: 100%;
+    background-color: slategray;
+    color: white;
+    padding: 20px;
+}
+
+ul a {
+    display: inline-block;
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+} 
+
+ul a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 10px ;
+    transition-duration: 0.5s;
+}
+
+ul a:active {
+    background-color: red;
+}
+
+.weaper h1 {
+    padding-bottom: 15px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 6rem;
+    color: white;
+}
+
+.login {
+    position: relative;
+    width: 200px;
+    /* background-image: url(./img/jr-korpa-9XngoIpxcEo-unsplash.jpg);
+    background-size: cover; */
+    background-color: skyblue;
+    margin: 50px auto 80px;
+    padding-left: 295px;
+    padding-right: 40px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    /* box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+    border: 1px dashed grey; */
+}
+
+.login .left img {
+    width: 250px;
+    height: 220px;
+    float: left;
+    margin-left: -260px;
+    margin-top: 33px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+form  {
+    margin-left: 15px;
+}
+
+input {
+    padding: 10px;
+    padding-left: 15px;
+    border: transparent;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 188px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: transparent;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+
+button:active {
+    background-color: red;
+    color: white;
+}
+
+.login-container a {
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 13px;
+    /* color: white; */
+}
+
+.fa-user {
+    position: absolute;
+    right: 2.5%;
+    bottom: 64%;
+    /* color: white; */
+}
+
+.fa-lock {
+    position: absolute;
+    margin-left: 198px;
+    margin-top: -40px;
+    /* color: white; */
+}

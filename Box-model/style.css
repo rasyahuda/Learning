@@ -1,0 +1,41 @@
+/* div {
+    display: inline-block;
+} */
+
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    /* margin-right: 50px; */
+    /* negatif-margin */
+    /* margin-bottom: 30px; */
+    /* top, right, bottom, left  */
+    /* margin: 30px 30px 60px 50px; */
+    /* top, right-left, bottom */
+    /* margin: 30px 50px 30px; */
+    /* top-bottom, right-left */
+    /* margin: 20px 50px; */
+    /* all element */
+    /* margin: 50px; */
+    /* Auto */
+    /* margin: auto; */
+    margin: 50px;
+}
+
+.dua {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    /* margin-left: 30px; */
+
+    /* negatif-margin */
+    /* margin-top: -150px; */
+    margin: auto;
+}
+
+.tiga {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin: auto;
+}

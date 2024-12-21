@@ -1,0 +1,11 @@
+.navigasi  li {
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+}
+
+.navigasi a {
+    display: inline-block;
+    background-color: brown;
+    width: 120%;
+}

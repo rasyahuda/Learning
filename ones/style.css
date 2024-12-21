@@ -1,0 +1,11 @@
+h1 {
+    color: red;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+    text-decoration: line-through;
+}

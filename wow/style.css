@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+*, body {
+    font-family: 'Poppins', 'sans-serif';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    background-color: bisque;
+    padding: 150px;
+    margin: auto;
+}
+
+.kesatu {
+    font-size: 90px;
+    padding: 5px;
+    color: red;
+    text-align: center;
+}
+
+.kedua {
+    font-size: 25px;
+    color: black;
+}
+
+.worst {
+    text-align: center;
+    font-size: 90px;
+    color: aliceblue;
+}
+
+.about {
+    background-image: url(./img/Custom-Designed\ Illustrations.jpeg);
+    padding: 150px;
+    background-size: cover;
+}
+
+.diff {
+    font-size: 25px;
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: orange;
+}
+
+.header {
+    text-align: center;
+    margin: 70px auto 10px;
+    font-size: 120px;
+    color: white;
+}
+
+.container {
+    width: 280px;
+    padding: 30px;
+    margin: 100px auto 290px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+img {
+    width: 280px;
+    border-radius: 10px;
+}
+
+.title p {
+    display: inline-block;
+    margin-top: 7px;
+    background-color: yellow;
+    padding: 5px 10px 5px 13px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    width: 60px;
+}
+
+.title h4 {
+    font-weight: normal;
+    font-size: 0.8rem;
+    margin-top: 8px;
+}
+
+.card-judul p {
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+.card-judul h2 {
+    margin-top: 5px;
+}
+
+.card-footer img {
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.card-footer p {
+    text-align: center;
+    margin-top: -32px;
+    margin-left: -110px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.end {
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+    border: transparent;
+    background-color: red;
+    margin-left: 35px;
+    color: white;
+    width: 75%;
+}
+
+.end:hover {
+    background-color: black;
+    transition-duration: 0.8s;
+}
+
+.end:active {
+    background-color: brown;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lyric</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="lyrics-container">
+      <h1>Grenade</h1>
+      <p id="lyrics"></p>
+    </div>
+
+    <script>
+      const lyrics = `Gave you all had you tossed it in the trash\nYou tossed it in the trash, you did(ooh-ohh)\bTo give me all your love is all I ever ask\n'Cause what you don't understand is\nI'd catch a grenade for ya(yeah,yeah,yeah)\nThrow my hand on a blade for ya(yeah,yeah,yeah)\nI'd jump in front of a train for ya(yeah,yeah,yeah)\bYou know I'd do anything for ya(yeah,yeah,yeah)`;
+
+      const displayLyrics = (
+        text,
+        elementId,
+        charDelay = 80,
+        lineDelay = 70,
+        specialDelay = 1200
+      ) => {
+        const element = document.getElementById(elementId);
+        let index = 0;
+
+        const displayNextChar = () => {
+          if (index < text.length) {
+            if (text[index] === "\n") {
+              element.innerHTML += "<br>";
+              setTimeout(displayNextChar, lineDelay); // Jeda antar baris
+            } else if (text[index] === "\b") {
+              element.innerHTML += "<br>";
+              setTimeout(displayNextChar, specialDelay); // Jeda khusus
+            } else {
+              element.innerHTML += text[index];
+              setTimeout(displayNextChar, charDelay); // Jeda antar karakter
+            }
+            index++;
+          }
+        };
+
+        displayNextChar();
+      };
+
+      window.onload = () => {
+        displayLyrics(lyrics, "lyrics");
+      };
+    </script>
+  </body>
+</html>
